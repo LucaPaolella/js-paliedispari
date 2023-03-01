@@ -1,9 +1,10 @@
 "use strict";
 
-const pcChoice = Math.floor(Math.random() * 5) + 1;
-console.log(pcChoice);
 const userChoice = prompt ("Ciao! Benvenuto nel simulatore di pari e dispari. Pari o Dispari?", "" );
 console.log(userChoice);
+const pcChoice = Math.floor(Math.random() * 5) + 1;
+console.log(pcChoice);
+
 
 
 
