@@ -9,15 +9,19 @@ function checkPali(parola) {
     for (let i = 0; i < lunghezza / 2; i++) {
 
         if (parola[i] !== parola[lunghezza - 1 - i]) {
-            return alert('Non palindroma');
+            return ('Non palindroma');
         }
     }
-    return alert ('Palindroma');
+    return ('Palindroma');
 }
 
 
-
 const index = checkPali(parola);
+
+console.log(index)
+
+
+
 
 
 
